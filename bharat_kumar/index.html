@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <label>Enter taxable income</label><br/>
+    <input id="income"/><br/>
+    <label>Enter tax deducted</label><br/>
+    <input id="deducted"/><br/>
+    <p>-----------------------------------</p>
+    <button id="calculateOntarioTax">Calculate Ontario Tax</button> 
+    <button id="calculateFederalTax">Calculate Federal Tax</button><br/>
+    <label>Ontario tax : </label><span id="ontarioTax">0</span><br/>
+    <label>Federal tax : </label><span id="federalTax">0</span><br/>
+    <p>-----------------------------------</p>
+    <p><b>Total : $<span id="total">0</span><br/>
+    Owing : $<span id="owing">0</span></b></p>
+    <p>-----------------------------------</p>
+    <p><span id="error" style="color: red;"></span><span id="success" style="color: green;"></span></p>
+    <p>-----------------------------------</p>
+    <script type="module" src="js/main.js"></script>
+</body>
